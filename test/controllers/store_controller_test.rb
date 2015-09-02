@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class StoreControllerTest < ActionController::TestCase
+  skip_before_action :authorize
+
   test "should get index" do
     get :index
     assert_response :success
