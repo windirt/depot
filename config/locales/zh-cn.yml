@@ -1,0 +1,64 @@
+zh-cn:
+
+  layouts:
+    application:
+      title: "务实书店"
+      home: "主页"
+      questions: "问题"
+      news: "新闻"
+      contact: "联系我们"
+
+  store:
+    index:
+      title_html:   "你的务实产品列表"
+      add_html:   "添加到购物车"
+
+  carts:
+    cart:
+      title: "你的购物车"
+      empty: "清空购物车"
+      checkout: "结账"
+      total: "总计"
+
+  number:
+    currency:
+      format:
+        unit: "US$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%u&nbsp;%n"
+
+  orders:
+    new:
+      legend: "请输入您的详情"
+    form:
+      name: "姓名"
+      address_html: "地址"
+      email: "电子邮件"
+      pay_type: "支付方式"
+      pay_prompt_html: "请选择一个支付方式"
+      submit: "下单"
+
+  activerecord:
+    models:
+      order: "订单"
+    attributes:
+      order:
+        address: "地址"
+        name: "姓名"
+        email: "电子邮件"
+        pay_type: "支付方式"
+    errors:
+      messages:
+        inclusion: "没有选择支付方式"
+        blank: "不能为空"
+
+  errors:
+    template:
+      body: "有错误发生"
+      header:
+        one: "保存这个%{model}时产生了1个错误"
+        other: "保存这个%{model}时产生了%{count}个错误"
+
+  thanks: "多谢惠顾"
